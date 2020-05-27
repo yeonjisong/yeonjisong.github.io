@@ -36,7 +36,8 @@ p.lead {
     /*text-transform: uppercase;*/
     font-weight: 400;
     font-family: 'Roboto Slab';
-    font-size: 1.3rem}
+    font-size: 1.3rem
+}
 .social-icons a {
     display: inline-block;
     height: 3rem;
