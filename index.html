@@ -21,15 +21,18 @@
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
 
+  <!-- Download Resume -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body id="page-top">
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <div class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-none d-lg-block">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="resource/profile.jpg" alt="">
       </span>
-    </a>
+    </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -64,28 +67,135 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
         <br>
-        <h2 class="mb-5">About me</h2>
-        <p >Final Year Student at Hong Kong University of Science and Technology studying Electronic and Computer Engineering</p>
-        <a href="resource/SONG_Yeon_Ji_resume.pdf" class="icon has-text-light" target="_blank">
-          <i class=""></i><strong>Resume</strong>
+        <h2 class="heading">About me</h2>
+        <div>
+        Final Year Student at Hong Kong University of Science and Technology studying Electronic and Computer Engineering.
+        <br>
+        Lived in China for 11 years and fluent in English, Korean, and Mandarin.
+        <br>
+        Skilled in <h7>Python</h7>, <h7>C++</h7>, <h7>Robotics</h7>, <h7>Machine Learning</h7>, <h7>Deep Learning</h7>, and <h7>Full Stack Web Development</h7>.</div>
+        <br>
+        <a class="btn" href="resource/SONG_Yeon_Ji_resume.pdf" target="_blank">
+          <i class="fa fa-download"></i> Download Resume
         </a>
+
+     <!--    <a href="resource/SONG_Yeon_Ji_resume.pdf" class="icon has-text-light" target="_blank">
+          <i class=""></i><strong>Download Resume</strong>
+        </a> -->
     </section>
 
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="mb-5">Work Experience</h2>
+        <h2 class="heading">Work Experience</h2>
 
-          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Robotics Software Engineer</h3>
-            <div class="subheading mb-3">@ Robocore AI </div>
+            <h3><a href="http://surromind.ai/" target="_blank">Surromind Robotics (Seoul National University)</a></h3>
+            <h4>Artificial Intelligence Research Engineer</h4>
             <p>
             <ul class="a">
-              <li>Created new solutions for temi robots, combining IOT products and the mobility of temi.</li>
-              <li>Implemented NLP, SLAM Mapping, Lidar, Machine Learning, Human/Facial Recognition solutions in hospitals, elderly centers, schools and many other real customer settings.</li>
-              <li>Performed GUI design, system design and solved real-life customer request with AI solution.</li>
+              <li>Deep Learning Applications for Computer Vision.</li>
+              <li>Detecting objects and classifying images/videos.</li>
+            </ul>
+            </p>
+            <div class="tags">
+              <span class="tag">Python</span>
+            </div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">July 2020 - Sep 2020</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-content">
+          <h3><a href="https://www.robocore.ai/" target="_blank">Robocore AI</a></h3>
+          <div class="subheading mb-3">Robotics Software Engineer </div>
+          <p>
+          <ul class="a">
+            <li>Created new solutions for temi robots, combining IOT products and the mobility of temi.</li>
+            <li>Implemented NLP, SLAM Mapping, Lidar, Machine Learning, Human/Facial Recognition solutions in hospitals, elderly centers, schools and many other real customer settings.</li>
+            <li>Performed GUI design, system design and solved real-life customer request with AI solution.</li>
+          </ul>
+          </p>
+          <div class="tags">
+            <span class="tag">SLAM</span>
+            <span class="tag">Python</span>
+            <span class="tag">IDL</span>
+            <span class="tag">C/C++</span>
+          </div>
+        </div>
+        <div class="resume-date text-md-right">
+          <span class="text-primary">June 2020</span>
+        </div>
+      </div>
+
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-content">
+          <h3><a href="https://codecrain.com/" target="_blank">Codecrain Inc.</a></h3>
+          <div class="subheading mb-3">Frontend Developer</div>
+          <p>
+          <ul class="a">
+            <li>Developed Frontend web application with a senior developer using React.js and Node.js.</li>
+            <li>Assisted in maintaining and enhancing database using javascript and MySQL.</li>
+          </ul>
+          </p>
+          <div class="tags">
+            <span class="tag">React.js</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">MySQL</span>
+          </div>
+        </div>
+        <div class="resume-date text-md-right">
+          <span class="text-primary">June 2019 - September 2019</span>
+        </div>
+      </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="heading">Projects</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3><a href="www.bundleport.com" target="_blank">Bundleport</a></h3>
+            <div class="subheading mb-3">CTO / Logistics Manager</div>
+            <p>
+            <ul class="a">
+              <li>Created service based on HTML5/CSS3 and JavaScript.</li>
+              <li>Developed full-stack web application using Node.js and MySQL.</li>
+              <li>Developed on cloud server using AWS S3, EC2, Elastic Beanstalk and Cloudfront.</li>
+            </ul>
+            </p>
+            <div class="tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">AWS</span>
+            </div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2018 - May 2020</span>
+          </div>
+        </div>
+        
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3><a href="" target="_blank">HKUST Robotics team</a></h3>
+            <div class="subheading mb-3">Software Engineer</div>
+            <p>
+            <ul class="a">
+              <li>Cameras and Vision Sensors.</li>
+              <li>Radar Sensors.</li>
             </ul>
             </p>
             <div class="tags">
@@ -96,86 +206,28 @@
             </div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">June 2020</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Frontend Developer</h3>
-            <div class="subheading mb-3">@ Codecrain Inc.</div>
-            <p>
-            <ul class="a">
-              <li>Developed Frontend web application with a senior developer using React.js and Node.js.</li>
-              <li>Assisted in maintaining and enhancing database using javascript and MySQL.</li>
-            </ul>
-            </p>
-            <div class="tags">
-              <span class="tag">React.js</span>
-              <span class="tag">Node.js</span>
-              <span class="tag">MySQL</span>
-            </div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2019 - September 2019</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">CTO</h3>
-            <div class="subheading mb-3">@ Bundleport</div>
-            <p>
-            <ul class="a">
-              <li>Created service based on HTML5/CSS3 and JavaScript.</li>
-              <li>Developed full-stack web application using Node.js and MySQL.</li>
-              <li>Developed on cloud server usign AWS S3, EC2, Elastic Beanstalk and Cloudfront.</li>
-              <li>Chekcout our website at www.bundleport.com </li>
-            </ul>
-            </p>
-            <div class="tags">
-              <span class="tag">HTML5</span>
-              <span class="tag">CSS3</span>
-              <span class="tag">JavaScript</span>
-            </div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2018 - May 2020</span>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Projects</h2>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Software Engineer</h3>
-            <div class="subheading mb-3">@ HKUST Robotics team</div>
-            <p>
-              HKUST Robotics Team
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
             <span class="text-primary">September 2018 - December 2018</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Activity Asisstant</h3>
-            <div class="subheading mb-3">@ HKUST ROV Community Project</div>
+            <h3><a href="https://seng.ust.hk/gce/community-engagement" target="_blank">HKUST ROV Community Project</a></h3>
+            <div class="subheading mb-3">Activity Asisstant</div>
             <p>
-              ENGG2900D
+            <ul class="a">
+              <li>Worked in teams from different schools, to serve primary and secondary students, to understand limitations on the served groups and to learn how to apply theoretical knowledge on the building of under-water robots.</li>
+              <li>As a teacher transferred skills and knowledge of under-water robot building to primary and secondary school students.</li>
+            </ul>
             </p>
+            <div class="tags">
+              <span class="tag">Robotics</span>
+              <span class="tag">Teamwork</span>
+              <span class="tag">Leadership</span>
+            </div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">February 2019 - June 2019</span>
+            <span class="text-primary">February 2019 - May 2019</span>
           </div>
         </div>
 
@@ -188,14 +240,14 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
-        <h2 class="mb-5">Education</h2>
+        <h2 class="heading">Education</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Hong Kong University of Science and Technology</h3>
-            <div class="subheading mb-3">Bachelor of Engineering</div>
-            <div>Electronic and Computer Engineering</div>
+            <h3><a href="https://www.ust.hk/home" target="_blank">Hong Kong University of Science and Technology</a></h3>
+            <div class="subheading mb-3">BENG Electronic and Computer Engineering</div>
             <p>
+            <ul class="a">
               <li>Machine Learning and Information Processing for Robotic Perception</li>
               <li>Deep Learning for Natural Language Processing</li>
               <li>Object-Oriented Programming and Data Structures</li>
@@ -203,8 +255,8 @@
               <li>Discrete Mathematical Tools for Computer Science</li>
               <li>Introduction to Integrated Circuits and Systems</li>
               <li>Computer Organization</li>
+            </ul>
             </p>
-            <p></p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2017 - May 2021</span>
@@ -217,8 +269,7 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
-        <h2> Skills &amp; Interests</h2>
-        <br>
+        <h2 class="heading">Skills</h2>
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-check"></i>
@@ -231,7 +282,7 @@
             Full Stack Web Development</li>
         </ul>
         <br>
-        <a>Python | C/C++ | Java | Excel | JavaScript | Lidar | SLAM | IDL | SQL | HTML5 | CSS3</a>
+        <div>Python | C/C++ | Java | Excel | JavaScript | Lidar | SLAM | IDL | SQL | HTML5 | CSS3</div>
 <!--         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
             <i class="fab fa-python"></i>
@@ -250,11 +301,11 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
       <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
+        <h2 class="heading"> Awards and Certifications</h2>
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            HKUST Admission Scholoarship</li>
+            HKUST Admission Scholarship</li>
         </ul>
       </div>
     </section>

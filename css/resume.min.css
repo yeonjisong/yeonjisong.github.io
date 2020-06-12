@@ -6,7 +6,8 @@
 body {
     font-family: 'Roboto Slab';
     padding-top: 54px;
-    color: #868e96}
+    color: #515151
+}
 @media (min-width: 992px) {
     body {
     padding-top: 0;
@@ -16,27 +17,53 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Roboto Slab';
     font-weight: 500;
     /*text-transform: uppercase;*/
-    color: #343a40
+    /*color: #343a40*/
 }
 h1 {
     font-size: 6rem;
     line-height: 5.5rem}
 h2 {
-    /*font-size: 3.5rem*/}
+    font-size: 1.5rem;
+    color: #01452c
+}
 h3 {
-    font-size: 1.5rem
+    font-size: 1.2rem;
+}
+h4 {
+    font-size: 1rem;
+}
+h7 {
+    font-family: 'Roboto Slab';
+    font-size: 1rem;
+    /*font-weight: 400*/
+    text-decoration: underline;
 }
 ul.a {
   list-style-type: circle;
+  font-size: 1rem;
 }
 p.lead {
     font-size: 1rem;
-    font-weight: 400}
+    font-weight: 400
+}
+p.p {
+   text-decoration: underline; 
+}
+a {
+    color: #01452c
+}
+a:active,a:focus,a:hover {
+    background-color: #01452c;
+    color: #ffffff
+}
+.heading {
+    margin-bottom: 3rem!important;
+}
 .subheading {
     /*text-transform: uppercase;*/
     font-weight: 400;
     font-family: 'Roboto Slab';
-    font-size: 1.3rem
+    font-size: 1rem
 }
 .social-icons a {
     display: inline-block;
@@ -123,7 +150,7 @@ section.resume-section {
 section.resume-section .resume-item .resume-date {
     min-width: none}
 @media (min-width: 768px) {
-    section.resume-section {
+    section.resume-section {    
     /*min-height: 100vh*/}
 section.resume-section .resume-item .resume-date {
     min-width: 18rem}
@@ -136,12 +163,4 @@ section.resume-section .resume-item .resume-date {
 .bg-primary {
     background-color: #FFFFFF!important}
 .text-primary {
-    color: #bd5d38!important}
-a {
-    color: #bd5d38
-}
-b {
-    color: #868e96
-}
-a:active,a:focus,a:hover {
-    color: #824027}
+    color: #01452c!important}
