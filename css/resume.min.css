@@ -32,7 +32,9 @@ h3 {
 h4 {
     font-size: 1rem;
 }
-
+h7 {
+    text-decoration: underline
+}
 ul.a {
   list-style-type: circle;
   font-size: 1rem;
@@ -111,7 +113,7 @@ a:active,a:focus,a:hover {
 .social-icons a: last-child {
     margin-right: 0}
 .social-icons a:hover {
-    background-color: #bd5d38}
+    background-color: #01452c}
 .dev-icons {
     font-size: 3rem}
 .dev-icons .list-inline-item i:hover {
