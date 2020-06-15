@@ -32,12 +32,7 @@ h3 {
 h4 {
     font-size: 1rem;
 }
-h7 {
-    font-family: 'Roboto Slab';
-    font-size: 1rem;
-    /*font-weight: 400*/
-    text-decoration: underline;
-}
+
 ul.a {
   list-style-type: circle;
   font-size: 1rem;
@@ -55,6 +50,22 @@ a {
 a:active,a:focus,a:hover {
     background-color: #01452c;
     color: #ffffff
+}
+.button {
+    display: inline-block; 2380;
+    font-weight: 400;
+  /*background-color: DodgerBlue;*/
+  border: none;
+  /*color: white;*/
+  /*padding: 12px 30px;*/
+  cursor: pointer;
+  /*font-size: 20px;*/
+}
+
+/* Darker background on mouse-over */
+.button:hover {
+  background-color: #01452c;
+  text-decoration: none
 }
 .heading {
     margin-bottom: 3rem!important;
