@@ -24,7 +24,7 @@ h1 {
     line-height: 5.5rem}
 h2 {
     font-size: 1.5rem;
-    color: #01452c
+    color: #D95957
 }
 h3 {
     font-size: 1.2rem;
@@ -47,10 +47,10 @@ p.p {
    text-decoration: underline; 
 }
 a {
-    color: #01452c
+    color: #E48080
 }
 a:active,a:focus,a:hover {
-    background-color: #01452c;
+    background-color: #D95957;
     color: #ffffff
 }
 .button {
@@ -66,7 +66,7 @@ a:active,a:focus,a:hover {
 
 /* Darker background on mouse-over */
 .button:hover {
-  background-color: #01452c;
+  background-color: #D95957;
   text-decoration: none
 }
 .heading {
@@ -82,7 +82,7 @@ a:active,a:focus,a:hover {
     display: inline-block;
     height: 3rem;
     width: 3rem;
-    background-color: #495057;
+    background-color: #E48080;
     color: #fff!important;
     border-radius: 100%;
     text-align: center;
@@ -113,7 +113,7 @@ a:active,a:focus,a:hover {
 .social-icons a: last-child {
     margin-right: 0}
 .social-icons a:hover {
-    background-color: #01452c}
+    background-color: #D95957}
 .dev-icons {
     font-size: 3rem}
 .dev-icons .list-inline-item i:hover {
@@ -176,4 +176,4 @@ section.resume-section .resume-item .resume-date {
 .bg-primary {
     background-color: #FFFFFF!important}
 .text-primary {
-    color: #01452c!important}
+    color: #ED6361!important}
