@@ -58,9 +58,6 @@ a:active,a:focus,a:hover {
     background-color: #c2c2c2;
     /*color: #ffffff*/
 }
-li{
-    style="font-weight: 300";
-}
 .button {
     display: inline-block; 2380;
     font-weight: 400;
