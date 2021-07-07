@@ -2,7 +2,8 @@
 body {
     font-family: 'Roboto Slab';
     padding-top: 54px;
-    color: #515151
+    color: #515151;
+    font-size: 0.9rem;
 }
 @media (min-width: 992px) {
     body {
@@ -11,29 +12,37 @@ body {
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Roboto Slab';
-    font-weight: 500;
+    /*font-weight: 300;*/
     /*text-transform: uppercase;*/
     /*color: #343a40*/
 }
 h1 {
     font-size: 6rem;
-    line-height: 5.5rem}
+    line-height: 5.4rem;
+    font-weight: 300;}
 h2 {
-    font-size: 1.5rem;
-    color: #D95957
-}
+    font-size: 1.3rem;
+    color: #303030;
+    font-weight:400}
 h3 {
-    font-size: 1.2rem;
-}
-h4 {
+    font-weight: 300;
+    font-weight: bold;
     font-size: 1rem;
 }
+h4 {
+    font-weight: 300;
+    font-size: 0.9rem;
+}
 h7 {
-    text-decoration: underline
+    font-weight: 300;
+    font-size: 0.85rem;
+}
+h8 {
+   font-size: 0.8rem; 
 }
 ul.a {
   list-style-type: circle;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 p.lead {
     font-size: 1rem;
@@ -43,11 +52,14 @@ p.p {
    text-decoration: underline; 
 }
 a {
-    color: #E48080
+    color: #303030
 }
 a:active,a:focus,a:hover {
-    background-color: #D95957;
-    color: #ffffff
+    background-color: #c2c2c2;
+    /*color: #ffffff*/
+}
+li{
+    style="font-weight: 300";
 }
 .button {
     display: inline-block; 2380;
@@ -62,15 +74,15 @@ a:active,a:focus,a:hover {
 
 /* Darker background on mouse-over */
 .button:hover {
-  background-color: #D95957;
+  background-color: #303030;
   text-decoration: none
 }
 .heading {
-    margin-bottom: 3rem!important;
+    margin-bottom: 1.5rem!important;
 }
 .subheading {
     /*text-transform: uppercase;*/
-    font-weight: 400;
+    font-weight: 300;
     font-family: 'Roboto Slab';
     font-size: 1rem
 }
@@ -78,7 +90,7 @@ a:active,a:focus,a:hover {
     display: inline-block;
     height: 3rem;
     width: 3rem;
-    background-color: #E48080;
+    background-color: #303030;
     color: #fff!important;
     border-radius: 100%;
     text-align: center;
@@ -109,7 +121,7 @@ a:active,a:focus,a:hover {
 .social-icons a: last-child {
     margin-right: 0}
 .social-icons a:hover {
-    background-color: #D95957}
+    background-color: #303030}
 .dev-icons {
     font-size: 3rem}
 .dev-icons .list-inline-item i:hover {
@@ -119,7 +131,8 @@ a:active,a:focus,a:hover {
     letter-spacing: .05rem;
     text-transform: uppercase;
     margin-top: 10px;
-    background-color: #D95957
+    background-color: #303030;
+    color: #ffffff;
 }
 #sideNav .navbar-toggler:focus {
     outline-color: #bd5d38}
@@ -176,4 +189,4 @@ section.resume-section .resume-item .resume-date {
 .bg-primary {
     background-color: #FFFFFF!important}
 .text-primary {
-    color: #ED6361!important}
+    color: #303030!important}
