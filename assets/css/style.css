@@ -401,7 +401,7 @@ section {
 .education .education-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #49586d;
   position: relative;
 }
 
@@ -417,7 +417,7 @@ section {
 
 .education .education-item h5 {
   font-size: 11px;
-  background: #e4edf9;
+  background: #ededed;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -446,13 +446,13 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid #49586d;
 }
 
 /*--------------------------------------------------------------
 # publications
 --------------------------------------------------------------*/
-.education .education-title {
+.publications .publications-title {
   font-size: 20px;
   font-weight: 700;
   margin-top: 20px;
@@ -460,46 +460,46 @@ section {
   color: #050d18;
 }
 
-.education .education-item {
+.publications .publications-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #49586d;
   position: relative;
 }
 
-.education .education-item h4 {
+.publications .publications-item h4 {
   line-height: 18px;
-  font-size: 14.5px;
-  font-weight: 600;
-  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 300;
+  /*text-transform: uppercase;*/
   font-family: "Roboto Slab", sans-serif;
   color: #050d18;
   margin-bottom: 10px;
 }
 
-.education .education-item h5 {
+.publications .publications-item h5 {
   font-size: 11px;
-  background: #e4edf9;
-  padding: 5px 15px;
+  /*background: #ededed;*/
+  padding-top: 2px;
   display: inline-block;
-  font-weight: 600;
-  margin-bottom: 45px;
+  font-weight: 400;
+  margin-bottom: 15px;
 }
 
-.education .education-item ul {
+.publications .publications-item ul {
   padding-left: 35px;
   font-size: 13px;
 }
 
-.education .education-item ul li {
+.publications .publications-item ul li {
   padding-bottom: 3px; 
 }
 
-.education .education-item:last-child {
+.publications .publications-item:last-child {
   padding-bottom: 0;
 }
 
-.education .education-item::before {
+.publications .publications-item::before {
   content: "";
   position: absolute;
   width: 16px;
@@ -508,7 +508,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid #49586d;
 }
 
 
@@ -527,14 +527,14 @@ section {
 
 .facts .count-box i {
   display: block;
-  font-size: 40px;
+  font-size: 20px;
   color: #149ddd;
   float: left;
   line-height: 0;
 }
 
 .facts .count-box span {
-  font-size: 48px;
+  font-size: 40px;
   line-height: 40px;
   display: block;
   font-weight: 700;
@@ -561,11 +561,11 @@ section {
 }
 
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: #49586d;
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -1103,7 +1103,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background: #f9f9f9;
+  background: #ededed;
 }
 
 .breadcrumbs h2 {
