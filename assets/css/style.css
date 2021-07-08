@@ -12,7 +12,7 @@ body {
   font-family: 'Roboto Slab', sans-serif;
   color: #272829;
   font-weight: 300;
-  font-size: 13px;
+  font-size: 13.5px;
 }
 
 a {
@@ -469,7 +469,7 @@ section {
 
 .publications .publications-item h4 {
   line-height: 18px;
-  font-size: 13px;
+  font-size: 13.5px;
   font-weight: 300;
   /*text-transform: uppercase;*/
   font-family: "Roboto Slab", sans-serif;
@@ -478,7 +478,7 @@ section {
 }
 
 .publications .publications-item h5 {
-  font-size: 11px;
+  font-size: 11.5px;
   /*background: #ededed;*/
   padding-top: 2px;
   display: inline-block;
