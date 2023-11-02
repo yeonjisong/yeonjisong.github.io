@@ -2,176 +2,290 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yeon-Ji Song</title>
 
-  <title>YeonJi Song</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-  <link href="util/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!--
+    - #MAIN
+  -->
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-      <br>
-      <br>
-      <br>
-      <div class="profile">
-        <img src="resource/profile.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">YeonJi, Song</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://www.linkedin.com/in/yeonji-song-233331171" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://github.com/yeonjisong" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-          <a href="" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="mailto:yjasz98@gmail.com" class="gmail"><i class="bx bx-mail-send"></i></a>
+  <main>
+
+ <!-- #SIDEBAR -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/profile2.jpg" alt="yeonjisong" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="yeonjisong">Yeon-Ji Song</h1>
+          <p class="title">PhD Student @SNU</p>
         </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
       </div>
-
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li class="content"><a href="./index.html">About</a></li>
-          <li><a href="./publications.html"><span>Publications</span></a></li>
-          <li><a href="./research.html"><span>Research</span></a></li>
+      <div class="sidebar-info_more">
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="mailto:yjasz98@gmail.com" target="_blank" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/yeonjisong" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/yeonji-song-233331171" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
         </ul>
-      </nav><!-- .nav-menu -->
-    </div>
-  </header><!-- End Header -->
-
-
-  <main id="main">
-
-
-    <!-- ======= Educaion Section ======= -->
-    <section id="publications" class="publications">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Domestic Conferences</h2>
+      </div>
+      <div class="sidebar-info">
+        <div class="info-content">
+          <p class="description">(Last updated: Nov. 2023)</p>
         </div>
+      </div>
+    </aside>
 
-        <div class="row">
-          <div>
-            <div class="publications-item pb-0">
-              <h4><strong>YeonJi Song</strong>, Youngjae Yoo, Chung-Yeon Lee, Byeong-Tak Zhang                  
-                  <b>"Deep RL-based Optimal Path Planning and Obstacle Avoidance for Mobile Robots"</b>
+
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a class="navbar-link" href="./index.html">About</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="./resume.html">CV</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link active" href="./publications.html">Publications</a>
+          </li>
+        </ul>
+      </nav>
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume active" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">International Publications</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a>Learning Object Appearance and Motion Dynamics with Object-Centric Representations</a>
+                  <!-- <span style="font-size: 11px; font-style: italic; padding-left: 5px">South Korea</span> -->
               </h4>
-              <h5><em>Proc. Korea Computer Congress 2021 (KCC 2021) </em>
-                <a href="./resource/domestic/kcc2021_summer.pdf" target="_blank" style='color: #122f57'>[pdf]</a>
-              </h5>
-            </div>
-          </div>
-          <div>
-      </div>
-    </section>
-    <!-- End Education Section -->
+              <p class="timeline-text">
+                <a style="text-decoration: underline">Yeon-Ji Song</a>, Hyunseo Kim, Suhyung Choi, Jin-Hwa Kim*, Byoung-Tak Zhang*
+              </p>
+              <p>
+                <span>NeurIPS 2023 workshop on Causal Representation Learning </span>
+              </p>
+              <p>
+                <!-- <h5><a style="color: gray" href="./index.html" target="_blank">ABS</a></h5> -->
+                <h5><a style="color: gray" href="./index.html" target="_blank">PDF</a></h5>
+                <!-- <h5><a style="color: gray" href="./index.html" target="_blank">Code</a></h5> -->
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
 
+          <div class="title-wrapper">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a>On Discovery of Local Independence over Continuous Variables via Neural Contextual Decomposition</a>
+                  <!-- <span style="font-size: 11px; font-style: italic; padding-left: 5px">South Korea</span> -->
+              </h4>
+              <p class="timeline-text">
+                Inwoo Hwang, Yunhyeok Kwak, <a style="text-decoration: underline">Yeon-Ji Song</a>, Byoung-Tak Zhang*, Sanghack Lee*
+              </p>
+              <p>
+                <span>The 2nd Conference on Causal Learning and Reasoning (CLeaR) 2023</span>
+              </p>
+              <p>
+                <!-- <h5><a style="color: gray" href="./index.html" target="_blank">ABS</a></h5> -->
+                <h5><a style="color: gray" href="https://openreview.net/forum?id=-aFd28Uy9td" target="_blank">PDF</a></h5>
+                <!-- <h5><a style="color: gray" href="./index.html" target="_blank">Code</a></h5> -->
+              </p>
+            </li>
+          </ol>
+        </section>
 
-<!-- ======= Facts Section ======= -->
-    <section id="facts" class="facts">
-      <div class="container">
+<br>
 
-        <div class="section-title">
-          <h2>Summary</h2>
-          <!-- <p>Iin progress</p> -->
+        <header>
+          <h2 class="h2 article-title">Domestic Publications</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a>Unsupervised Video Prediction with Object-Centric Representations</a>
+                  <!-- <span style="font-size: 11px; font-style: italic; padding-left: 5px">South Korea</span> -->
+              </h4>
+              <p class="timeline-text">
+                <a style="text-decoration: underline">Yeon-Ji Song</a>, Byoung-Tak Zhang
+              </p>
+              <p>
+                <span>Under review </span>
+                <!-- <span>Proc. Korea Software Congress 2023 (KSC 2023) </span> -->
+              </p>
+              <p>
+                <!-- <h5><a style="color: gray" href="./index.html" target="_blank">ABS</a></h5> -->
+                <!-- <h5><a style="color: gray" href="./index.html" target="_blank">PDF</a></h5> -->
+                <!-- <h5><a style="color: gray" href="./index.html" target="_blank">Code</a></h5> -->
+              </p>
+            </li>
+          </ol>
         </div>
 
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <!-- <i class="bi bi-emoji-smile"></i> -->
-              <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>International Conferences</strong></p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" >
-            <div class="count-box">
-              <!-- <i class="bi bi-journal-richtext"></i> -->
-              <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>International Journals</strong></p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <!-- <i class="bi bi-headset"></i> -->
-              <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Domestic Conferences (Korean)</strong></p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <!-- <i class="bi bi-people"></i> -->
-              <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Domestic Journals (Korean)</strong></p>
-            </div>
-          </div>
+          <div class="title-wrapper">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a>Self-Supervised Reinforcement Learning with Object-Centric Representations</a>
+                  <!-- <span style="font-size: 11px; font-style: italic; padding-left: 5px">South Korea</span> -->
+              </h4>
+              <p class="timeline-text">
+                <a style="text-decoration: underline">Yeon-Ji Song</a>, Inwoo Hwang, Byoung-Tak Zhang
+              </p>
+              <p>
+                <span>Proc. Korea Software Congress 2021 (KSC 2022) </span>
+              </p>
+              <p>
+                <!-- <h5><a style="color: gray" href="./index.html" target="_blank">ABS</a></h5> -->
+                <!-- <h5><a style="color: gray" href="./index.html" target="_blank">PDF</a></h5> -->
+                <!-- <h5><a style="color: gray" href="./index.html" target="_blank">Code</a></h5> -->
+              </p>
+            </li>
+          </ol>
         </div>
 
-      </div>
-    </section><!-- End Facts Section -->
+          <div class="title-wrapper">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a>Self-Supervised Multi-Object Reinforcement Learning via Mutual Information</a>
+                  <!-- <span style="font-size: 11px; font-style: italic; padding-left: 5px">South Korea</span> -->
+              </h4>
+              <p class="timeline-text">
+                <a style="text-decoration: underline">Yeon-Ji Song</a>, Chang-Hoon Jeong, Byoung-Tak Zhang
+              </p>
+              <p>
+                <span>Proc. Korea Computer Congress 2021 (KCC 2022) </span>
+              </p>
+              <p>
+                <!-- <h5><a style="color: gray" href="./index.html" target="_blank">ABS</a></h5> -->
+                <!-- <h5><a style="color: gray" href="./index.html" target="_blank">PDF</a></h5> -->
+                <!-- <h5><a style="color: gray" href="./index.html" target="_blank">Code</a></h5> -->
+              </p>
+            </li>
+          </ol>
+        </div>
+
+        <div class="title-wrapper">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a>Deep RL-based Optimal Path Planning and Obstacle Avoidance for Mobile Robots</a>
+                  <!-- <span style="font-size: 11px; font-style: italic; padding-left: 5px">South Korea</span> -->
+              </h4>
+              <p class="timeline-text">
+                <a style="text-decoration: underline">Yeon-Ji Song</a>, Youngjae Yoo, Chung-Yeon Lee, Byoung-Tak Zhang
+              </p>
+              <p>
+                <span>Proc. Korea Computer Congress 2021 (KCC 2021) </span>
+              </p>
+              <p>
+                <!-- <h5><a style="color: gray" href="./index.html" target="_blank">ABS</a></h5> -->
+                <!-- <h5><a style="color: gray" href="./index.html" target="_blank">PDF</a></h5> -->
+                <!-- <h5><a style="color: gray" href="./index.html" target="_blank">Code</a></h5> -->
+              </p>
+            </li>
+          </ol>
+        </div>
+
+        </section>
+      </article>
 
 
-   
 
-  </main><!-- End #main -->
 
-   <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        Last update Jul 2021
-        <!-- Last update <script> document.write(new Date().toLocaleDateString()); </script> -->
-        &copy; <strong><span>All rights reserved</span></strong>
-      </div>
     </div>
-  </footer><!-- End  Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  </main>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
