@@ -852,11 +852,26 @@ main {
 
 .skills-title { margin-bottom: 0px; }
 
-.skills-list { padding: 20px; }
+/*.skills-list {  padding: 20px; }*/
 
 
-.skills-item:not(:last-child) { margin-bottom: 10px; }
+/*.skills-item:not(:last-child) { margin-bottom: 10px; }*/
 
+.skills-item {
+/*  font-size: var(--fs-5);*/
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.skills-item .h5{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
 .skills-item-title {
   font-size: var(--fs-6);
   line-height: 1.3;
