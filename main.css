@@ -9,13 +9,13 @@ html[data-theme='dark'] .fa-sun { padding-left: 10px; padding-top: 12px; display
 html[data-theme='dark'] .fa-moon { display: none; }
 
 /****************************************************************************** Content *****************************************************************************/
-body { padding-bottom: 70px; color: var(--global-text-color); background-color: var(--global-bg-color); }
+body { padding-bottom: 70px; color: var(--global-text-color); background-color: var(--global-bg-color); text-align: justify}
 
 body.fixed-top-nav { padding-top: 56px; }
 
 body.sticky-bottom-footer { padding-bottom: 0; }
 
-.container { max-width: 800px; }
+.container { max-width: 900px; }
 
 .profile img { width: 100%; }
 
@@ -32,7 +32,7 @@ a:hover:after, table.table a:hover:after { width: 100%; }
 
 .caption { font-size: 0.875rem; margin-top: 0.75rem; margin-bottom: 1.5rem; text-align: center; }
 
-.profile { margin-left: 1rem; width: 100%; }
+.profile { margin-left: 3rem; width: 100%; }
 .profile .address { margin-bottom: 5px; margin-top: 5px; font-family: monospace; font-size: 1.2rem; }
 .profile .address p { display: inline-block; margin: 0; }
 
