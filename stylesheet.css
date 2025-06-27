@@ -140,3 +140,43 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+/* Style the container */
+.scrollable-news {
+    width: 90%;
+    max-width: 800px;
+    height: 80px; /* Adjust as needed */
+    margin: 0 auto 32px auto; /* bottom margin for spacing to Research */
+    overflow-y: auto;
+    background: none;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove extra spacing at top and bottom of the list */
+.scrollable-news ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.scrollable-news li {
+    margin-bottom: 10px;
+}
+
+/* Optional: Custom scrollbar styles */
+.scrollable-news::-webkit-scrollbar {
+    width: 5px;
+}
+.scrollable-news::-webkit-scrollbar-track {
+    background: #fff;
+}
+.scrollable-news::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+}
+.scrollable-news::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
