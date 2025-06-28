@@ -181,7 +181,7 @@ span.highlight {
 }
 
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
 
   table:not([style*="padding:16px"]) > tbody > tr {
     display: flex;
@@ -196,7 +196,7 @@ span.highlight {
   }
 
   table:not([style*="padding:16px"]) > tbody > tr > td:nth-child(2) {
-    order: 1;
+    order: -1;
   }
 }
 
