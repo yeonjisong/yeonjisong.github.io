@@ -197,5 +197,6 @@ span.highlight {
 
   table:not([style*="padding:16px"]) > tbody > tr > td:nth-child(2) {
     order: -1;
+    text-align: center;
   }
 }
