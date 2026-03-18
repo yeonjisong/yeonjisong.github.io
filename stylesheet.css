@@ -145,8 +145,8 @@ span.highlight {
 .scrollable-news {
     width: 90%;
     max-width: 800px;
-    height: 80px; /* Adjust as needed */
-    margin: 0 auto 32px auto; /* bottom margin for spacing to Research */
+    height: 120px; /* Adjust as needed */
+    margin: 0 auto 30px auto; /* bottom margin for spacing to Research */
     overflow-y: auto;
     background: none;
     border: none;
