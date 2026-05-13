@@ -151,6 +151,52 @@ h2 {
     margin-top: 6px;
 }
 
+/* --- Awards Section --- */
+.awards-list {
+    font-size: 13px; /* Matches your research-intro and news text size */
+    color: #444;
+}
+
+.awards-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.awards-list li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.awards-list strong {
+    color: #333;
+    font-weight: 600;
+}
+
+/* --- Professional Service Section --- */
+.service-list {
+    font-size: 13px; /* Matches bio and news font size */
+    color: #444;
+}
+
+.service-list h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 15px 0 5px 0;
+    color: #333;
+}
+
+.service-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.service-list li {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
 /* --- Footer --- */
 .footer {
     text-align: center; 
